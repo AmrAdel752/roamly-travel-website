@@ -1,0 +1,1452 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore inspiring destinations, curated experiences and travel ideas with Roamly, a modern travel discovery concept."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#123F3A" />
+    <meta
+      property="og:title"
+      content="Roamly &mdash; Discover Your Next Escape"
+    />
+    <meta
+      property="og:description"
+      content="Explore inspiring destinations, curated experiences and travel ideas with Roamly, a modern travel discovery concept."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Roamly" />
+    <!-- Add og:image and twitter:image here when a real share image asset exists. -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Roamly &mdash; Discover Your Next Escape"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore inspiring destinations, curated experiences and travel ideas with Roamly, a modern travel discovery concept."
+    />
+    <!-- Add a canonical link here when the final production URL is known. -->
+    <link rel="preload" href="assets/Img/bg-img-1.jpg" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="icon" href="assets/Img/roamly-mark.svg" type="image/svg+xml" />
+    <link
+      rel="shortcut icon"
+      href="assets/Img/roamly-mark.svg"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <title>Roamly &mdash; Discover Your Next Escape</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header" data-site-header>
+      <div class="container header-container">
+        <a class="navbar-brand" href="#trip-planner" aria-label="Roamly home">
+          <img
+            src="assets/Img/roamly-mark.svg"
+            width="64"
+            height="64"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="logo-text">Roamly</span>
+        </a>
+
+        <nav
+          class="primary-nav"
+          id="primary-navigation"
+          aria-label="Primary navigation"
+          data-primary-nav
+        >
+          <button
+            class="mobile-nav-close"
+            type="button"
+            aria-label="Close menu"
+            data-nav-close
+          >
+            <i class="fa fa-xmark" aria-hidden="true"></i>
+          </button>
+          <a
+            class="roamly-nav-link active"
+            aria-current="page"
+            href="#trip-planner"
+            >Explore</a
+          >
+          <a class="roamly-nav-link" href="#destinations">Destinations</a>
+          <a class="roamly-nav-link" href="#travel-inspiration">Experiences</a>
+          <a class="roamly-nav-link" href="#roamly-story">About</a>
+          <a class="roamly-nav-link" href="#contact">Contact</a>
+          <div class="mobile-nav-actions">
+            <a class="mobile-favorites-link" href="#destinations">
+              <i class="fa-regular fa-heart" aria-hidden="true"></i>
+              Favorites
+              <span class="favorites-count" data-favorites-count hidden>0</span>
+            </a>
+            <a class="btn btn-primary mobile-plan-link" href="#trip-planner"
+              >Plan a trip</a
+            >
+          </div>
+        </nav>
+
+        <div class="header-actions">
+          <a
+            class="header-icon-button"
+            href="#destinations"
+            aria-label="View favorite destinations"
+          >
+            <i class="fa-regular fa-heart" aria-hidden="true"></i>
+            <span class="favorites-count" data-favorites-count hidden>0</span>
+          </a>
+          <a class="btn btn-primary header-cta" href="#trip-planner"
+            >Plan a trip</a
+          >
+          <button
+            class="mobile-nav-toggle"
+            type="button"
+            aria-label="Open menu"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+            data-nav-toggle
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search Form -->
+    <main id="main-content" tabindex="-1">
+      <section id="trip-planner" class="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <div class="hero-copy">
+            <p class="eyebrow">Explore beyond the ordinary</p>
+            <h1 id="hero-title">Find your next unforgettable escape.</h1>
+            <p class="hero-lede">
+              Discover inspiring destinations, memorable stays and experiences
+              made for the way you travel.
+            </p>
+            <div class="hero-actions" role="group" aria-label="Hero actions">
+              <a
+                class="btn btn-primary hero-primary-action"
+                href="#destinations"
+                >Explore featured destinations</a
+              >
+              <a
+                class="btn btn-secondary hero-secondary-action"
+                href="assets/videos/video.mp4"
+              >
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
+                Watch Our Story
+              </a>
+            </div>
+            <ul class="hero-trust-list" aria-label="Travel details">
+              <li>Destination ideas</li>
+              <li>Curated experiences</li>
+              <li>Travel inspiration</li>
+            </ul>
+          </div>
+          <div class="hero-search-panel" data-trip-planner>
+            <form
+              action="#destinations"
+              method="get"
+              class="search-form trip-planner-form"
+              aria-label="Plan your escape"
+              novalidate
+            >
+              <div class="planner-heading">
+                <p class="planner-kicker">Plan your escape</p>
+                <p>Search Roamly's featured travel inspiration.</p>
+              </div>
+
+              <div
+                class="planner-field planner-field-destination"
+                data-field="destination"
+              >
+                <label for="destination">Destination</label>
+                <div class="planner-input-wrap">
+                  <i class="fa fa-location-dot" aria-hidden="true"></i>
+                  <input
+                    type="text"
+                    name="destination"
+                    id="destination"
+                    class="form-control"
+                    placeholder="Where do you want to go?"
+                    autocomplete="off"
+                    required
+                    aria-describedby="destination-error"
+                  />
+                </div>
+                <p
+                  class="field-error"
+                  id="destination-error"
+                  aria-live="polite"
+                ></p>
+              </div>
+
+              <div class="planner-field" data-field="check-in">
+                <label for="inputCheckIn">Check in</label>
+                <div class="planner-input-wrap">
+                  <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+                  <input
+                    type="date"
+                    name="check-in"
+                    class="form-control"
+                    id="inputCheckIn"
+                  />
+                </div>
+              </div>
+
+              <div class="planner-field" data-field="check-out">
+                <label for="inputCheckOut">Check out</label>
+                <div class="planner-input-wrap">
+                  <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                  <input
+                    type="date"
+                    name="check-out"
+                    class="form-control"
+                    id="inputCheckOut"
+                    aria-describedby="checkout-error"
+                  />
+                </div>
+                <p
+                  class="field-error"
+                  id="checkout-error"
+                  aria-live="polite"
+                ></p>
+              </div>
+
+              <div class="planner-field travelers-field" data-travelers>
+                <span class="planner-label" id="travelers-label"
+                  >Travelers</span
+                >
+                <button
+                  class="travelers-toggle"
+                  type="button"
+                  aria-labelledby="travelers-label travelers-summary"
+                  aria-controls="travelers-menu"
+                  aria-expanded="false"
+                  data-travelers-toggle
+                >
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                  <span id="travelers-summary" data-travelers-summary
+                    >2 adults</span
+                  >
+                  <i
+                    class="fa-solid fa-chevron-down travelers-chevron"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+                <div
+                  class="travelers-menu"
+                  id="travelers-menu"
+                  role="group"
+                  aria-labelledby="travelers-label"
+                  data-travelers-menu
+                >
+                  <div class="guest-row">
+                    <div>
+                      <p>Adults</p>
+                      <span>Age 13+</span>
+                    </div>
+                    <div class="guest-stepper">
+                      <button
+                        type="button"
+                        aria-label="Decrease adults"
+                        data-guest-minus="adults"
+                      >
+                        -
+                      </button>
+                      <output for="adults" data-guest-count="adults">2</output>
+                      <button
+                        type="button"
+                        aria-label="Increase adults"
+                        data-guest-plus="adults"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <div class="guest-row">
+                    <div>
+                      <p>Children</p>
+                      <span>Ages 0-12</span>
+                    </div>
+                    <div class="guest-stepper">
+                      <button
+                        type="button"
+                        aria-label="Decrease children"
+                        data-guest-minus="children"
+                      >
+                        -
+                      </button>
+                      <output for="children" data-guest-count="children"
+                        >0</output
+                      >
+                      <button
+                        type="button"
+                        aria-label="Increase children"
+                        data-guest-plus="children"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <input type="hidden" name="adults" id="adults" value="2" />
+                <input type="hidden" name="children" id="children" value="0" />
+              </div>
+
+              <button type="submit" class="btn btn-primary planner-submit">
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                Search trips
+              </button>
+
+              <p class="planner-helper">
+                Portfolio concept search. Results point you toward featured
+                escapes on this page.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section
+        id="travel-inspiration"
+        class="travel-values"
+        aria-labelledby="travel-inspiration-title"
+      >
+        <div class="container">
+          <div class="travel-values-header" data-reveal>
+            <h2 id="travel-inspiration-title" class="section-title">
+              Travel inspiration, made simpler.
+            </h2>
+            <p class="section-subtitle">
+              We curate ideas, places and experiences so planning your next
+              escape feels exciting from the very beginning.
+            </p>
+          </div>
+          <div class="travel-values-grid">
+            <article class="travel-value-item" data-reveal>
+              <span class="travel-value-number">01</span>
+              <i
+                class="fa-solid fa-compass article-icon"
+                aria-hidden="true"
+              ></i>
+              <h3 class="article-title">Curated escapes</h3>
+              <p>
+                Handpicked destinations organized by mood, season, and the pace
+                you want from your time away.
+              </p>
+            </article>
+            <article class="travel-value-item" data-reveal>
+              <span class="travel-value-number">02</span>
+              <i class="fa-solid fa-hotel article-icon" aria-hidden="true"></i>
+              <h3 class="article-title">Inspiring stays</h3>
+              <p>
+                Distinctive hotels, retreats, and hideaways selected for
+                character, comfort, and sense of place.
+              </p>
+            </article>
+            <article class="travel-value-item" data-reveal>
+              <span class="travel-value-number">03</span>
+              <i
+                class="fa-solid fa-map-location-dot article-icon"
+                aria-hidden="true"
+              ></i>
+              <h3 class="article-title">Local experiences</h3>
+              <p>
+                Thoughtful ways to connect with the culture, flavors,
+                landscapes, and daily rhythm of each destination.
+              </p>
+            </article>
+            <article class="travel-value-item" data-reveal>
+              <span class="travel-value-number">04</span>
+              <i
+                class="fa-solid fa-calendar-check article-icon"
+                aria-hidden="true"
+              ></i>
+              <h3 class="article-title">Easy trip planning</h3>
+              <p>
+                Clear inspiration and practical details that help turn early
+                ideas into a trip that feels beautifully considered.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Discovery Highlights -->
+      <section
+        id="project-highlights"
+        class="discovery-highlights"
+        aria-labelledby="project-highlights-title"
+        data-discovery-highlights
+      >
+        <div class="container">
+          <h2 id="project-highlights-title" class="visually-hidden">
+            Roamly project highlights
+          </h2>
+          <div class="discovery-highlights-grid">
+            <article class="discovery-highlight" data-reveal>
+              <span
+                class="discovery-highlight-number"
+                data-stat-source="destinations"
+                >00</span
+              >
+              <p>Featured Destinations</p>
+            </article>
+            <article class="discovery-highlight" data-reveal>
+              <span
+                class="discovery-highlight-number"
+                data-stat-source="travel-styles"
+                >00</span
+              >
+              <p>Travel Styles</p>
+            </article>
+            <article class="discovery-highlight" data-reveal>
+              <span
+                class="discovery-highlight-number"
+                data-stat-source="experience-categories"
+                >00</span
+              >
+              <p>Experience Categories</p>
+            </article>
+            <article class="discovery-highlight" data-reveal>
+              <span
+                class="discovery-highlight-number"
+                data-stat-source="journey-planners"
+                >00</span
+              >
+              <p>Simple Journey Planner</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Destinations -->
+      <section
+        id="destinations"
+        class="section-gray destinations-section"
+        aria-labelledby="destinations-title"
+        data-destinations
+      >
+        <div class="container">
+          <div class="destinations-header">
+            <div>
+              <p class="eyebrow">Featured escapes</p>
+              <h2 id="destinations-title" class="section-title">
+                Destinations worth the journey
+              </h2>
+              <p class="section-subtitle">
+                From vibrant cities to quiet coastlines, explore places that
+                deserve a spot on your list.
+              </p>
+            </div>
+            <div
+              class="destination-filters"
+              role="group"
+              aria-label="Filter destinations"
+            >
+              <button
+                type="button"
+                class="destination-filter active"
+                data-filter="all"
+                aria-pressed="true"
+              >
+                All
+              </button>
+              <button
+                type="button"
+                class="destination-filter"
+                data-filter="beach"
+                aria-pressed="false"
+              >
+                Beach
+              </button>
+              <button
+                type="button"
+                class="destination-filter"
+                data-filter="city"
+                aria-pressed="false"
+              >
+                City
+              </button>
+              <button
+                type="button"
+                class="destination-filter"
+                data-filter="nature"
+                aria-pressed="false"
+              >
+                Nature
+              </button>
+              <button
+                type="button"
+                class="destination-filter"
+                data-filter="culture"
+                aria-pressed="false"
+              >
+                Culture
+              </button>
+            </div>
+          </div>
+
+          <div class="destinations-grid" aria-live="polite">
+            <article
+              class="destination-card destination-card-featured"
+              data-category="nature"
+              data-destination-id="queenstown-new-zealand"
+            >
+              <div class="destination-media">
+                <img
+                  src="assets/Img/bg-img-3.jpg"
+                  width="1400"
+                  height="632"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Mountain lake landscape in Queenstown, New Zealand"
+                />
+                <button
+                  type="button"
+                  class="destination-favorite"
+                  aria-label="Add Queenstown to favorites"
+                  aria-pressed="false"
+                  data-favorite
+                >
+                  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                </button>
+                <span class="destination-badge">Nature</span>
+              </div>
+              <div class="destination-content">
+                <p class="destination-region">New Zealand</p>
+                <h3>Queenstown</h3>
+                <p>
+                  Alpine lakes, dramatic ridgelines, and quiet mornings made for
+                  fresh-air itineraries.
+                </p>
+                <a href="#contact" class="destination-explore"
+                  >Explore Queenstown
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </article>
+
+            <article
+              class="destination-card"
+              data-category="beach culture"
+              data-destination-id="santorini-greece"
+            >
+              <div class="destination-media">
+                <img
+                  src="assets/Img/santorini-greece.jpg"
+                  width="1200"
+                  height="831"
+                  loading="lazy"
+                  decoding="async"
+                  alt="White hillside buildings over blue water in Santorini, Greece"
+                />
+                <button
+                  type="button"
+                  class="destination-favorite"
+                  aria-label="Add Santorini to favorites"
+                  aria-pressed="false"
+                  data-favorite
+                >
+                  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                </button>
+                <span class="destination-badge">Beach</span>
+              </div>
+              <div class="destination-content">
+                <p class="destination-region">Greece</p>
+                <h3>Santorini</h3>
+                <p>
+                  Sunlit cliff villages, blue horizons, and slow evenings above
+                  the Aegean.
+                </p>
+                <a href="#contact" class="destination-explore"
+                  >Explore Santorini
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </article>
+
+            <article
+              class="destination-card"
+              data-category="city culture"
+              data-destination-id="new-york-usa"
+            >
+              <div class="destination-media">
+                <img
+                  src="assets/Img/img-02.jpg"
+                  width="370"
+                  height="262"
+                  loading="lazy"
+                  decoding="async"
+                  alt="New York City skyline and waterfront"
+                />
+                <button
+                  type="button"
+                  class="destination-favorite"
+                  aria-label="Add New York to favorites"
+                  aria-pressed="false"
+                  data-favorite
+                >
+                  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                </button>
+                <span class="destination-badge">City</span>
+              </div>
+              <div class="destination-content">
+                <p class="destination-region">USA</p>
+                <h3>New York</h3>
+                <p>
+                  Big-city energy, skyline views, galleries, food, and
+                  neighborhoods built for wandering.
+                </p>
+                <a href="#contact" class="destination-explore"
+                  >Explore New York
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </article>
+
+            <article
+              class="destination-card"
+              data-category="city culture"
+              data-destination-id="los-angeles-usa"
+            >
+              <div class="destination-media">
+                <img
+                  src="assets/Img/img-01.jpg"
+                  width="370"
+                  height="262"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Palm-lined Los Angeles street with the Hollywood sign in the distance"
+                />
+                <button
+                  type="button"
+                  class="destination-favorite"
+                  aria-label="Add Los Angeles to favorites"
+                  aria-pressed="false"
+                  data-favorite
+                >
+                  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                </button>
+                <span class="destination-badge">Culture</span>
+              </div>
+              <div class="destination-content">
+                <p class="destination-region">USA</p>
+                <h3>Los Angeles</h3>
+                <p>
+                  Palm-lined streets, film history, sunny neighborhoods, and
+                  laid-back city days.
+                </p>
+                <a href="#contact" class="destination-explore"
+                  >Explore Los Angeles
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </article>
+
+            <article
+              class="destination-card"
+              data-category="beach nature"
+              data-destination-id="algarve-portugal"
+            >
+              <div class="destination-media">
+                <img
+                  src="assets/Img/img-05.jpg"
+                  width="280"
+                  height="170"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Rocky Atlantic coastline in warm light"
+                />
+                <button
+                  type="button"
+                  class="destination-favorite"
+                  aria-label="Add Algarve Coast to favorites"
+                  aria-pressed="false"
+                  data-favorite
+                >
+                  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                </button>
+                <span class="destination-badge">Beach</span>
+              </div>
+              <div class="destination-content">
+                <p class="destination-region">Portugal</p>
+                <h3>Algarve Coast</h3>
+                <p>
+                  Golden cliffs, ocean air, and unhurried days along Portugal's
+                  southern edge.
+                </p>
+                <a href="#contact" class="destination-explore"
+                  >Explore the Algarve Coast
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </article>
+
+            <article
+              class="destination-card"
+              data-category="nature"
+              data-destination-id="dolomites-italy"
+            >
+              <div class="destination-media">
+                <img
+                  src="assets/Img/bg-img-1.jpg"
+                  width="1400"
+                  height="515"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Mountain lake and dramatic peaks in the Dolomites, Italy"
+                />
+                <button
+                  type="button"
+                  class="destination-favorite"
+                  aria-label="Add Dolomites to favorites"
+                  aria-pressed="false"
+                  data-favorite
+                >
+                  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                </button>
+                <span class="destination-badge">Nature</span>
+              </div>
+              <div class="destination-content">
+                <p class="destination-region">Italy</p>
+                <h3>Dolomites</h3>
+                <p>
+                  Glasslike lakes, jagged peaks, and slow mountain routes with
+                  cinematic views.
+                </p>
+                <a href="#contact" class="destination-explore"
+                  >Explore the Dolomites
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiences -->
+      <section
+        id="experiences"
+        class="experiences-section"
+        aria-labelledby="experiences-title"
+      >
+        <div class="container">
+          <div class="experiences-header" data-reveal>
+            <p class="eyebrow">Travel experiences</p>
+            <h2 id="experiences-title" class="section-title">
+              Travel for the stories you'll tell.
+            </h2>
+          </div>
+
+          <div class="experiences-layout">
+            <article
+              class="experience-story experience-story-large"
+              data-reveal
+            >
+              <a
+                href="#contact"
+                aria-label="Explore adventure travel experiences"
+              >
+                <figure class="experience-media">
+                  <img
+                    src="assets/Img/bg-img-3.jpg"
+                    width="1400"
+                    height="632"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Mountain lake and dramatic peaks for an adventure escape"
+                  />
+                </figure>
+                <div class="experience-copy">
+                  <p class="experience-category">Adventure</p>
+                  <h3>Chase the horizon</h3>
+                  <p>
+                    High passes, open water, and days shaped around the thrill
+                    of going a little farther.
+                  </p>
+                  <span class="experience-arrow" aria-hidden="true"
+                    ><i class="fa-solid fa-arrow-right"></i
+                  ></span>
+                </div>
+              </a>
+            </article>
+
+            <article class="experience-story" data-reveal>
+              <a
+                href="#contact"
+                aria-label="Explore food and culture travel experiences"
+              >
+                <figure class="experience-media">
+                  <img
+                    src="assets/Img/img-04.jpg"
+                    width="280"
+                    height="170"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Warm city scene for food and culture travel"
+                  />
+                </figure>
+                <div class="experience-copy">
+                  <p class="experience-category">Food &amp; Culture</p>
+                  <h3>Taste the city</h3>
+                  <p>
+                    Markets, neighborhood tables, galleries, and traditions that
+                    make a place linger.
+                  </p>
+                  <span class="experience-arrow" aria-hidden="true"
+                    ><i class="fa-solid fa-arrow-right"></i
+                  ></span>
+                </div>
+              </a>
+            </article>
+
+            <article class="experience-story" data-reveal>
+              <a href="#contact" aria-label="Explore nature travel experiences">
+                <figure class="experience-media">
+                  <img
+                    src="assets/Img/bg-img-1.jpg"
+                    width="1400"
+                    height="515"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Quiet mountain landscape for a nature retreat"
+                  />
+                </figure>
+                <div class="experience-copy">
+                  <p class="experience-category">Nature</p>
+                  <h3>Return to nature</h3>
+                  <p>
+                    Forests, coastlines, lakes, and slower days designed around
+                    fresh air and stillness.
+                  </p>
+                  <span class="experience-arrow" aria-hidden="true"
+                    ><i class="fa-solid fa-arrow-right"></i
+                  ></span>
+                </div>
+              </a>
+            </article>
+
+            <article class="experience-story experience-story-wide" data-reveal>
+              <a
+                href="#contact"
+                aria-label="Explore city break travel experiences"
+              >
+                <figure class="experience-media">
+                  <img
+                    src="assets/Img/img-02.jpg"
+                    width="370"
+                    height="262"
+                    loading="lazy"
+                    decoding="async"
+                    alt="City skyline for a weekend city break"
+                  />
+                </figure>
+                <div class="experience-copy">
+                  <p class="experience-category">City Breaks</p>
+                  <h3>Weekend somewhere new</h3>
+                  <p>
+                    Compact escapes with design hotels, late dinners, morning
+                    walks, and just enough spontaneity.
+                  </p>
+                  <span class="experience-arrow" aria-hidden="true"
+                    ><i class="fa-solid fa-arrow-right"></i
+                  ></span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Traveler Stories -->
+      <section
+        id="traveler-stories"
+        class="traveler-stories"
+        aria-labelledby="traveler-stories-title"
+      >
+        <div class="container">
+          <div class="traveler-stories-header" data-reveal>
+            <p class="eyebrow">Traveler story concepts</p>
+            <h2 id="traveler-stories-title" class="section-title">
+              Stories from the road
+            </h2>
+          </div>
+
+          <ul
+            class="traveler-stories-list"
+            aria-label="Sample traveler story cards"
+          >
+            <li class="traveler-story" data-reveal>
+              <blockquote>
+                "I wanted a trip that mixed big views with slow mornings. This
+                concept made the whole route feel easy to imagine."
+              </blockquote>
+              <div class="traveler-story-meta">
+                <span class="traveler-avatar" aria-hidden="true">M</span>
+                <div>
+                  <p>Maya</p>
+                  <span>Queenstown mountain escape</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="traveler-story" data-reveal>
+              <blockquote>
+                "The food-and-culture ideas helped shape a weekend that felt
+                less rushed and more personal."
+              </blockquote>
+              <div class="traveler-story-meta">
+                <span class="traveler-avatar" aria-hidden="true">J</span>
+                <div>
+                  <p>Jonas</p>
+                  <span>New York city break</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="traveler-story" data-reveal>
+              <blockquote>
+                "I liked seeing the beaches, stays, and quiet-day inspiration
+                together instead of scattered across tabs."
+              </blockquote>
+              <div class="traveler-story-meta">
+                <span class="traveler-avatar" aria-hidden="true">L</span>
+                <div>
+                  <p>Lina</p>
+                  <span>Algarve coastal retreat</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Video -->
+      <section
+        id="roamly-story"
+        class="video brand-story"
+        aria-labelledby="brand-story-title"
+      >
+        <div class="container">
+          <div class="brand-story-layout">
+            <div class="brand-story-media" data-reveal>
+              <video
+                class="story-preview-video brand-story-preview"
+                preload="metadata"
+                muted
+                loop
+                playsinline
+                aria-hidden="true"
+                tabindex="-1"
+                data-story-preview-video
+              >
+                <source src="assets/videos/video.mp4" type="video/mp4" />
+              </video>
+              <button
+                type="button"
+                class="story-play-button"
+                aria-label="Play Roamly story video"
+                aria-haspopup="dialog"
+                aria-controls="story-modal"
+                aria-expanded="false"
+                data-story-open
+              >
+                <span class="story-play-icon" aria-hidden="true"
+                  ><i class="fa-solid fa-play"></i
+                ></span>
+                <span>Play story</span>
+              </button>
+            </div>
+            <div class="brand-story-content" data-reveal>
+              <p class="eyebrow">Our story</p>
+              <h2 id="brand-story-title" class="section-title">
+                Travel changes the way we see the world.
+              </h2>
+              <p>
+                Roamly is a concept travel platform created to make discovering
+                your next destination feel as exciting as the journey itself.
+              </p>
+              <p class="brand-story-note">Portfolio concept project</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="story-modal"
+          id="story-modal"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="story-modal-title"
+          hidden
+          data-story-modal
+        >
+          <div class="story-modal-backdrop" data-story-close></div>
+          <div class="story-modal-panel" role="document">
+            <div class="story-modal-header">
+              <h3 id="story-modal-title">Roamly story film</h3>
+              <button
+                type="button"
+                class="story-modal-close"
+                aria-label="Close story video"
+                data-story-close
+              >
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+              </button>
+            </div>
+            <video
+              class="story-modal-video"
+              controls
+              preload="metadata"
+              aria-label="Roamly story film"
+              data-story-modal-video
+            >
+              <source src="assets/videos/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section
+        id="travel-faq"
+        class="faq-section"
+        aria-labelledby="faq-title"
+        data-faq
+      >
+        <div class="container">
+          <div class="faq-layout">
+            <div class="faq-header" data-reveal>
+              <p class="eyebrow">Helpful details</p>
+              <h2 id="faq-title" class="section-title">
+                Before you pack your bags
+              </h2>
+            </div>
+
+            <div class="faq-list">
+              <article class="faq-item" data-faq-item data-reveal>
+                <h3>
+                  <button
+                    type="button"
+                    id="faq-question-1"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-1"
+                    data-faq-trigger
+                  >
+                    What is Roamly?
+                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                  </button>
+                </h3>
+                <section
+                  class="faq-panel"
+                  id="faq-answer-1"
+                  aria-labelledby="faq-question-1"
+                  data-faq-panel
+                >
+                  <p>
+                    Roamly is a frontend portfolio concept built to showcase
+                    destination browsing, trip-planning UI, responsive layouts,
+                    and interactive travel details.
+                  </p>
+                </section>
+              </article>
+
+              <article class="faq-item" data-faq-item data-reveal>
+                <h3>
+                  <button
+                    type="button"
+                    id="faq-question-2"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-2"
+                    data-faq-trigger
+                  >
+                    Can I make a real booking through this website?
+                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                  </button>
+                </h3>
+                <section
+                  class="faq-panel"
+                  id="faq-answer-2"
+                  aria-labelledby="faq-question-2"
+                  data-faq-panel
+                >
+                  <p>
+                    No. Roamly does not process real reservations, payments,
+                    availability, hotel inventory, or traveler accounts. It is a
+                    fictional portfolio concept.
+                  </p>
+                </section>
+              </article>
+
+              <article class="faq-item" data-faq-item data-reveal>
+                <h3>
+                  <button
+                    type="button"
+                    id="faq-question-3"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-3"
+                    data-faq-trigger
+                  >
+                    How does the trip planner work?
+                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                  </button>
+                </h3>
+                <section
+                  class="faq-panel"
+                  id="faq-answer-3"
+                  aria-labelledby="faq-question-3"
+                  data-faq-panel
+                >
+                  <p>
+                    The planner is a portfolio concept interface. It validates
+                    basic fields and points you toward matching featured
+                    destinations on this page, but it does not search live
+                    travel databases or create itineraries.
+                  </p>
+                </section>
+              </article>
+
+              <article class="faq-item" data-faq-item data-reveal>
+                <h3>
+                  <button
+                    type="button"
+                    id="faq-question-4"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-4"
+                    data-faq-trigger
+                  >
+                    Can I save destinations?
+                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                  </button>
+                </h3>
+                <section
+                  class="faq-panel"
+                  id="faq-answer-4"
+                  aria-labelledby="faq-question-4"
+                  data-faq-panel
+                >
+                  <p>
+                    Yes, you can favorite destinations in this concept
+                    experience. Those saved items are stored locally in your
+                    browser and are not connected to a real Roamly account.
+                  </p>
+                </section>
+              </article>
+
+              <article class="faq-item" data-faq-item data-reveal>
+                <h3>
+                  <button
+                    type="button"
+                    id="faq-question-5"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-5"
+                    data-faq-trigger
+                  >
+                    Is the website mobile friendly?
+                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                  </button>
+                </h3>
+                <section
+                  class="faq-panel"
+                  id="faq-answer-5"
+                  aria-labelledby="faq-question-5"
+                  data-faq-panel
+                >
+                  <p>
+                    Yes. The layout is designed to adapt across phone, tablet,
+                    and desktop screens, including mobile navigation, responsive
+                    cards, and touch-friendly controls.
+                  </p>
+                </section>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section
+        id="travel-notes"
+        class="newsletter-section"
+        aria-labelledby="newsletter-title"
+      >
+        <div class="container">
+          <div class="newsletter-panel" data-reveal>
+            <div class="newsletter-copy">
+              <p class="eyebrow">Roamly notes</p>
+              <h2 id="newsletter-title" class="section-title">
+                Travel ideas, straight to your inbox.
+              </h2>
+              <p>A little inspiration for wherever you want to go next.</p>
+            </div>
+
+            <form
+              action="#travel-notes"
+              method="get"
+              class="newsletter-form"
+              aria-label="Join the Roamly newsletter"
+              novalidate
+              data-newsletter-form
+            >
+              <div class="newsletter-field" data-newsletter-field>
+                <label for="newsletterEmail" class="visually-hidden"
+                  >Email address</label
+                >
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <input
+                  type="email"
+                  name="email"
+                  id="newsletterEmail"
+                  class="form-control"
+                  placeholder="Email address"
+                  autocomplete="email"
+                  inputmode="email"
+                  required
+                  aria-describedby="newsletterEmailError"
+                />
+                <p
+                  class="newsletter-error"
+                  id="newsletterEmailError"
+                  aria-live="polite"
+                ></p>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Join the list
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="container contact">
+          <div class="contact-layout">
+            <div class="contact-intro" data-reveal>
+              <p class="eyebrow">Travel inquiry</p>
+              <h2 id="contact-title" class="section-title">
+                Let's plan somewhere unforgettable.
+              </h2>
+              <p>
+                Have a destination in mind? Send us a message and start shaping
+                the idea.
+              </p>
+
+              <div class="contact-map">
+                <iframe
+                  title="Map showing the Roamly concept contact location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79646.85046186084!2d31.288266667122446!3d30.07121281502159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584131cac08c7d%3A0xbd00be7b9494a8f4!2z2KfZhNmF2YfZhtiv2LPZitmG4oCO2Iwg2YXYrdin2YHYuNipINin2YTYrNmK2LLYqQ!5e0!3m2!1sar!2seg!4v1721565349609!5m2!1sar!2seg"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <form
+              action="#contact"
+              method="get"
+              class="contact-form"
+              aria-label="Contact Roamly"
+              novalidate
+              data-contact-form
+              data-reveal
+            >
+              <div class="contact-form-header">
+                <p class="contact-form-eyebrow">Travel inquiry</p>
+                <h3>Tell us where you want to go.</h3>
+                <p>
+                  Share the destination or idea you have in mind.
+                </p>
+                <p class="contact-form-note">
+                  Demo inquiry form - no reservation or payment is created.
+                </p>
+              </div>
+
+              <div class="contact-field contact-field-half" data-contact-field>
+                <label for="contactName">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="contactName"
+                  required
+                  autocomplete="name"
+                  class="form-control"
+                  placeholder="Your name"
+                  aria-describedby="contactNameError"
+                />
+                <p
+                  class="contact-error"
+                  id="contactNameError"
+                  aria-live="polite"
+                ></p>
+              </div>
+
+              <div class="contact-field contact-field-half" data-contact-field>
+                <label for="contactEmail">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="contactEmail"
+                  required
+                  autocomplete="email"
+                  inputmode="email"
+                  class="form-control"
+                  placeholder="you@example.com"
+                  aria-describedby="contactEmailError"
+                />
+                <p
+                  class="contact-error"
+                  id="contactEmailError"
+                  aria-live="polite"
+                ></p>
+              </div>
+
+              <div class="contact-field contact-field-full" data-contact-field>
+                <label for="contactSubject">Subject</label>
+                <input
+                  type="text"
+                  name="subject"
+                  id="contactSubject"
+                  required
+                  autocomplete="off"
+                  class="form-control"
+                  placeholder="Where are you thinking of going?"
+                  aria-describedby="contactSubjectError"
+                />
+                <p
+                  class="contact-error"
+                  id="contactSubjectError"
+                  aria-live="polite"
+                ></p>
+              </div>
+
+              <div
+                class="contact-field contact-field-message"
+                data-contact-field
+              >
+                <label for="contactMessage">Message</label>
+                <textarea
+                  name="message"
+                  id="contactMessage"
+                  rows="6"
+                  required
+                  autocomplete="off"
+                  class="form-control"
+                  placeholder="Tell us a little about the trip you have in mind..."
+                  aria-describedby="contactMessageError"
+                ></textarea>
+                <p
+                  class="contact-error"
+                  id="contactMessageError"
+                  aria-live="polite"
+                ></p>
+              </div>
+
+              <button type="submit" class="btn btn-primary contact-submit">
+                Send inquiry
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a
+              class="footer-logo"
+              href="#trip-planner"
+              aria-label="Roamly home"
+            >
+              <img
+                src="assets/Img/roamly-mark.svg"
+                width="64"
+                height="64"
+                loading="lazy"
+                decoding="async"
+                alt=""
+                aria-hidden="true"
+              />
+              <span>Roamly</span>
+            </a>
+            <p>
+              A concept travel discovery experience built for curious explorers.
+            </p>
+          </div>
+
+          <nav class="footer-column" aria-label="Explore">
+            <h2>Explore</h2>
+            <ul>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#travel-inspiration">Experiences</a></li>
+              <li><span>Travel Styles</span></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-column" aria-label="Company">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="#roamly-story">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="footer-column" role="group" aria-label="Project">
+            <h2>Project</h2>
+            <ul>
+              <li><span>Portfolio Project</span></li>
+              <li><span>GitHub</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            <p>&copy; 2026 Roamly. Concept travel experience.</p>
+            <p>Designed &amp; developed by Amr Adel</p>
+          </div>
+          <a
+            class="footer-back-top"
+            href="#trip-planner"
+            aria-label="Back to top"
+          >
+            <span>Back to Top</span>
+            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/JS/script.js" defer></script>
+  </body>
+</html>
